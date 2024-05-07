@@ -1,3 +1,4 @@
+package com.mycompany.michigan.colecciondinamica;
 import java.util.ArrayList;
 
 public class ColeccionDinamica {
