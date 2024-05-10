@@ -3,11 +3,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.tp3.tp3;
+import java.time.LocalDate;
 
 /**
  *
  * @author luka.malegni
  */
-public class PorAgua {
+public class PorAgua extends Congelado{
+    private int salinidadAgua;
+    
+    public PorAgua(String tipo, LocalDate fechaVencimiento, int nroLote, LocalDate fechaEnvasado,int codigoSupervision, int salinidadAgua){
+        super(tipo, fechaVencimiento, nroLote, fechaEnvasado, codigoSupervision);
+        this.salinidadAgua=salinidadAgua;
+    }
     
 }
