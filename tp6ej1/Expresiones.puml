@@ -1,0 +1,17 @@
+@startuml
+abstract class com.tp6ej1.Operacion
+annotation java.lang.Override
+class com.tp6ej1.Numero
+class com.tp6ej1.Suma
+class com.tp6ej1.Tp6ej1
+class java.util.ArrayList
+interface com.tp6ej1.Expresion
+com.tp6ej1.Operacion ..> java.util.ArrayList
+com.tp6ej1.Operacion --|> com.tp6ej1.Expresion
+com.tp6ej1.Numero ..> java.lang.Override
+com.tp6ej1.Numero ..> java.util.ArrayList
+com.tp6ej1.Numero --|> com.tp6ej1.Expresion
+com.tp6ej1.Suma --|> com.tp6ej1.Operacion
+com.tp6ej1.Suma ..> java.lang.Override
+com.tp6ej1.Expresion ..> java.util.ArrayList
+@enduml

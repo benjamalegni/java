@@ -31,5 +31,7 @@ public class Adicional1 {
     }
     
     public static void main(String[] args) {
+        Adicional1 a = new Adicional1();
+        Cliente c = new Cliente("benja","malegni",45988667,"san lorenzo",0.0);
     }
 }
